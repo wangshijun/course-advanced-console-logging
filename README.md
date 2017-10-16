@@ -42,7 +42,7 @@
 
 仓库地址：[wangshijun/course-advanced-console-logging](https://github.com/wangshijun/course-advanced-console-logging)
 
-运行方法：
+运行方法（确保系统中安装了 [gulp 命令行工具](https://gulpjs.com/)）：
 
 ```shell
 git clone https://github.com/wangshijun/course-advanced-console-logging
@@ -70,6 +70,7 @@ gulp serve
 ## 运行环境
 
 * Chrome v61
+* Node.js v8.6
 
 ## 参考资料
 
