@@ -4,6 +4,12 @@
 
 `console` 是开发 `javascript` 应用时最常用的调试工具，也是大多前端工程师入门时学会的第 1 个 `API`。除 `console.log` 之外，现代浏览器还为我们提供了很多打印日志的函数，来简化开发中的各种日志输出需求，比如日志分级、格式化、分组、计时、计数等。花 15 分钟学完本课程，你就能把这些工具函数添加到你的工具箱，让自己成为更高效的工程师。
 
+## 适用人群
+
+* [required]具备前端基础知识，CSS、HTML、JS；
+* [optional]用 `Chrome` 调试代码，但调试时只用 `console.log` 的同学；
+* [optional]期望不断打磨自己的调试技能，让自己变得更值钱；
+
 ## 内容目录
 
 ### 1. 日志级别及其语义化方法
@@ -45,7 +51,7 @@
 运行方法（确保系统中安装了 [gulp 命令行工具](https://gulpjs.com/)）：
 
 ```shell
-git clone https://github.com/wangshijun/course-advanced-console-logging
+git clone https://github.com/wangshijun/course-advanced-console-logging.git
 cd course-advanced-console-logging
 gulp serve
 ```
@@ -60,12 +66,6 @@ gulp serve
 1. [使用 `consome.time*` 计时](https://github.com/wangshijun/course-advanced-console-logging/commit/9742501d8261649670c1ff24a9b2b75c83ae90ca)
 1. [使用 `console.table` 输出结构化数据](https://github.com/wangshijun/course-advanced-console-logging/commit/ae01045e45887781f5e3c5118b98caffb7f52ed8)
 1. [使用 `console.trace` 调试复杂代码](https://github.com/wangshijun/course-advanced-console-logging/commit/508bd9e9a1618f49f265c9167ef5b3edd1b0eb41)
-
-## 适用人群
-
-* [required]具备前端基础知识，CSS、HTML、JS；
-* [optional]用 `Chrome` 调试代码，但调试时只用 `console.log` 的同学；
-* [optional]期望不断打磨自己的调试技能，让自己变得更值钱；
 
 ## 运行环境
 
